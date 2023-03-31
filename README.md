@@ -11,7 +11,7 @@ cd ./simple-flshbot-mev
 ```bash
 npm install
 ```
-3. Create a new .env file in the project directory with the following variables:
+3. Create a new ```.env``` file in the project directory with the following variables:
 ```bash
 URL = <ethereum_node_url>
 PRIVATE_KEY = <your_ethereum_private_key>
