@@ -23,6 +23,8 @@ To start the bot, run the following command in the project directory:
 node mev-bot.js
 ```
 
-The bot will create a new transaction with a gas price of 13 Gwei and a gas limit of 21,000, and submit it to the Flashbots auction using the Flashbots Bundle Provider. The transaction will be directed to the target Ethereum address specified in the .env file.
+The bot will create a transaction and submit it to the Flashbots auction using the Flashbots Bundle Provider. The transaction will be directed to the target Ethereum address specified in the ```.env``` file.
 
 If the transaction is included in a block within the next 10 blocks, the bot will output "Transaction successfully included." to the console. Otherwise, it will output "Transaction was not included in a block and has been removed from the system."
+
+Overall, this code is a basic example of how to use the Flashbots Bundle Provider to submit private transactions in Flashbots auctions. However, it only includes a single transaction and does not have any logic to adjust the bidding strategy or analyze the MEV opportunities.
