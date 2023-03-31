@@ -1,5 +1,5 @@
 # Flashbot Auction Bot
-This is a simple Flashbots auction bot written in JavaScript using the Flashbots Bundle Provider. The bot submits a private transaction to a specific Ethereum address using the ```sendPrivateTransaction``` method of the provider, bypassing the traditional mempool and avoiding the risk of front-running.
+This is a simple Flashbots auction bot written in JavaScript using the Flashbots Bundle Provider. The bot submits a private transaction using the ```sendPrivateTransaction``` method of the provider, bypassing the traditional mempool and avoiding the risk of front-running.
 
 ## Setup
 1. Clone the repository and navigate to the project directory:
